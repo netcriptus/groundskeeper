@@ -1,0 +1,4 @@
+discord.py
+ipdb
+python-dotenv
+discord-py-interactions

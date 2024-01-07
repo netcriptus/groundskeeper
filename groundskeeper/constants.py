@@ -1,0 +1,18 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Server
+SERVER_ID = int(os.getenv("SERVER_ID"))
+CLIENT_KEY = os.getenv("CLIENT_KEY")
+
+# Channel ids
+INTRO_ID = 1159415286483648592
+GENERAL_CHANNEL_ID = 1037852040556183657
+ROLES_CHANNEL_ID = 1179437992838959134
+
+
+# Roles
+MEMBER_ROLE_ID = 1193537745205862400
